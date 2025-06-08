@@ -1,0 +1,8 @@
+# dataset.yaml
+path: ./  # プロジェクトルート
+train: images/train
+val: images/val
+
+names:
+  0: up
+  1: down
