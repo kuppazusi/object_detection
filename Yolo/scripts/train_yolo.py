@@ -3,7 +3,7 @@
 from ultralytics import YOLO
 
 # --- 設定 ---
-MODEL_NAME = "yolov8n.pt"
+MODEL_NAME = "models/yolov8n.pt"
 DATA_YAML = "dataset.yaml"
 EPOCHS = 200
 IMG_SIZE = 640

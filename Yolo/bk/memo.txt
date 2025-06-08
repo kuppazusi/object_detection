@@ -1,0 +1,10 @@
+次のいずれかに配置：
+
+Python の site-packages/ultralytics/assets/ に保存
+
+bash
+コピーする
+編集する
+# 例（仮想環境により異なる）
+.venv/Lib/site-packages/ultralytics/assets/arial.ttf
+または、コードで直接 font を指定して回避（推論後の描画をカスタムする場合）
