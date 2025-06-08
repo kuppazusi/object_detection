@@ -1,0 +1,18 @@
+zipで↓ダウンロード
+https://github.com/HumanSignal/labelImg
+
+↓実行
+pip install PyQT5
+pip install lxml
+
+まずはデスクトップにある labelImg フォルダに移動します。
+
+cd Desktop/labelImg
+
+最初の一回だけは以下を実行します。
+
+pyrcc5 -o libs/resources.py resources.qrc
+
+以下を実行すると labelImg が起動します。
+
+python labelImg.py
